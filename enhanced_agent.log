@@ -1,0 +1,80 @@
+2025-06-12 03:26:58,619 - INFO - 🧠 Initializing Truly Intelligent Agent 636bd48e
+2025-06-12 03:26:58,624 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 03:26:58,625 - INFO - 🤖 Found 1 available models
+2025-06-12 03:26:58,628 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 03:26:58,629 - INFO - 🔍 Discovering and assessing 13 models...
+2025-06-12 03:26:58,629 - INFO - ✅ Mapped 1 models with capabilities
+2025-06-12 03:26:58,629 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to reasoning
+2025-06-12 03:26:58,630 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to coding
+2025-06-12 03:26:58,630 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to planning
+2025-06-12 03:26:58,630 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to analysis
+2025-06-12 03:26:58,630 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to creativity
+2025-06-12 03:26:58,630 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to research
+2025-06-12 03:26:58,630 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to debugging
+2025-06-12 03:26:58,631 - INFO - ✅ Automation capabilities available
+2025-06-12 03:26:58,631 - INFO - ✅ Truly Intelligent Agent ready!
+2025-06-12 03:27:52,735 - INFO - 🔄 Processing: go to website lennberg.eu and download 1 random pr...
+2025-06-12 03:27:52,735 - INFO - 📊 Task Analysis: web_automation | moderate | Confidence: 0.10
+2025-06-12 03:27:52,736 - INFO - 🎯 Action-oriented request detected, using persistent debugging...
+2025-06-12 03:27:52,736 - INFO - 🎯 Executing with persistence: go to website lennberg.eu and download 1 random pr...
+2025-06-12 03:27:52,737 - INFO - 🔄 Attempt 1/5
+2025-06-12 03:27:52,737 - INFO - 🛠️ Using strategy: basic_web_automation
+2025-06-12 03:27:52,737 - INFO - 🌐 Handling web automation task...
+2025-06-12 03:27:54,818 - INFO - ✅ Browser initialized for web automation
+2025-06-12 03:27:54,818 - INFO - 🌐 Navigating to: https://lennberg.eu
+2025-06-12 03:28:05,605 - INFO - 🎯 Executing action 1: screenshot
+2025-06-12 03:28:09,019 - INFO - 🔒 Browser closed
+2025-06-12 03:28:09,019 - INFO - ✅ Goal achieved on attempt 1!
+2025-06-12 03:28:09,020 - INFO - 🎯 Learned from successful strategy: basic_web_automation
+2025-06-12 03:28:09,021 - INFO - ✅ Goal successfully achieved!
+2025-06-12 03:28:48,296 - INFO - 🔄 Processing: you have opened website and took screenshot, now t...
+2025-06-12 03:28:48,297 - INFO - 📊 Task Analysis: web_automation | simple | Confidence: 0.10
+2025-06-12 03:28:48,297 - INFO - 🎯 Action-oriented request detected, using persistent debugging...
+2025-06-12 03:28:48,297 - INFO - 🎯 Executing with persistence: you have opened website and took screenshot, now t...
+2025-06-12 03:28:48,297 - INFO - 🔄 Attempt 1/5
+2025-06-12 03:28:48,297 - INFO - 🛠️ Using strategy: basic_web_automation
+2025-06-12 03:28:48,297 - INFO - 🌐 Handling web automation task...
+2025-06-12 03:28:48,297 - INFO - ❌ Attempt 1 failed. Goal not achieved.
+2025-06-12 03:28:48,298 - INFO - Failed criteria: ['page_loaded', 'interaction_completed', 'expected_result_achieved']
+2025-06-12 03:28:48,298 - INFO - Next actions suggested: ['take_screenshot_for_verification']
+2025-06-12 03:28:48,298 - INFO - 🔄 Attempt 2/5
+2025-06-12 03:28:48,298 - INFO - 🛠️ Using strategy: advanced_chatgpt_interaction
+2025-06-12 03:28:48,298 - INFO - 🌐 Handling web automation task...
+2025-06-12 03:28:48,298 - INFO - ❌ Attempt 2 failed. Goal not achieved.
+2025-06-12 03:28:48,299 - INFO - Failed criteria: ['page_loaded', 'interaction_completed', 'expected_result_achieved']
+2025-06-12 03:28:48,299 - INFO - Next actions suggested: ['take_screenshot_for_verification']
+2025-06-12 03:28:48,299 - INFO - 🔄 Attempt 3/5
+2025-06-12 03:28:48,299 - INFO - 🛠️ Using strategy: javascript_web_interaction
+2025-06-12 03:28:48,299 - INFO - 🌐 Handling web automation task...
+2025-06-12 03:28:48,299 - INFO - ❌ Attempt 3 failed. Goal not achieved.
+2025-06-12 03:28:48,299 - INFO - Failed criteria: ['page_loaded', 'interaction_completed', 'expected_result_achieved']
+2025-06-12 03:28:48,300 - INFO - Next actions suggested: ['take_screenshot_for_verification']
+2025-06-12 03:28:48,300 - INFO - 🔄 Attempt 4/5
+2025-06-12 03:29:53,887 - INFO - 🧠 Initializing Truly Intelligent Agent 914a17ef
+2025-06-12 03:29:53,895 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 03:29:53,896 - INFO - 🤖 Found 1 available models
+2025-06-12 03:29:53,899 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 03:29:53,899 - INFO - 🔍 Discovering and assessing 13 models...
+2025-06-12 03:29:53,900 - INFO - ✅ Mapped 1 models with capabilities
+2025-06-12 03:29:53,900 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to reasoning
+2025-06-12 03:29:53,900 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to coding
+2025-06-12 03:29:53,900 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to planning
+2025-06-12 03:29:53,900 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to analysis
+2025-06-12 03:29:53,900 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to creativity
+2025-06-12 03:29:53,900 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to research
+2025-06-12 03:29:53,900 - INFO - 📋 Assigned rolandroland/llama3.1-uncensored:latest to debugging
+2025-06-12 03:29:53,933 - INFO - ✅ Automation capabilities available
+2025-06-12 03:29:53,934 - INFO - ✅ Truly Intelligent Agent ready!
+2025-06-12 03:30:52,937 - INFO - 🔄 Processing: make timer for shutdown on this pc, I want it to t...
+2025-06-12 03:30:52,938 - INFO - 📊 Task Analysis: coding | simple | Confidence: 0.10
+2025-06-12 03:30:52,938 - INFO - 🎯 Action-oriented request detected, using persistent debugging...
+2025-06-12 03:30:52,938 - INFO - 🎯 Executing with persistence: make timer for shutdown on this pc, I want it to t...
+2025-06-12 03:30:52,939 - INFO - 🔄 Attempt 1/5
+2025-06-12 03:30:52,939 - INFO - 🛠️ Using strategy: simple_code_generation
+2025-06-12 03:31:37,628 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 03:31:37,629 - INFO - Writing and testing code: generated_code.py
+2025-06-12 03:31:37,789 - INFO - ❌ Attempt 1 failed. Goal not achieved.
+2025-06-12 03:31:37,789 - INFO - Failed criteria: ['code_created', 'code_runs_successfully']
+2025-06-12 03:31:37,791 - INFO - Next actions suggested: ['debug_and_fix_code', 'try_simpler_implementation', 'install_missing_dependencies']
+2025-06-12 03:31:37,792 - INFO - 🔄 Attempt 2/5
+2025-06-12 03:31:37,792 - INFO - 🛠️ Using strategy: advanced_code_generation

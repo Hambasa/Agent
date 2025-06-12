@@ -1,0 +1,964 @@
+2025-06-11 18:18:21,482 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 18:18:21,766 - __main__ - INFO - Initializing Self-Aware Agent cc3610a3-dd19-448d-8f83-8c0b8d7b3624
+2025-06-11 18:18:21,774 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:18:21,775 - __main__ - ERROR - Ollama setup error: 'name'
+2025-06-11 18:18:21,775 - __main__ - ERROR - Initialization error: 'name'
+2025-06-11 18:19:27,516 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 18:19:27,579 - __main__ - INFO - Initializing Self-Aware Agent 80c82256-92cb-4782-86b1-83042913b716
+2025-06-11 18:19:27,584 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:19:27,585 - __main__ - INFO - Available models: ['hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0', 'codellama:7b', 'mistral:7b', 'llava:7b', 'rolandroland/llama3.1-uncensored:latest', 'wizardlm-uncensored:latest', 'gemma3:4b', 'llama3.2:latest', 'hf.co/TheBloke/CodeLlama-7B-Instruct-GGUF:Q4_K_M', 'codellama:latest', 'hf.co/Triangle104/cogito-v1-preview-llama-8B-Q8_0-GGUF:latest', 'cogito:latest', 'deepcoder:latest']
+2025-06-11 18:33:42,954 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 18:33:43,008 - main - INFO - Initializing Self-Aware Agent aabfc341-cdf3-4b9e-a352-6bb131904017
+2025-06-11 18:33:43,015 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:33:43,017 - main - INFO - Available models: ['hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0', 'codellama:7b', 'mistral:7b', 'llava:7b', 'rolandroland/llama3.1-uncensored:latest', 'wizardlm-uncensored:latest', 'gemma3:4b', 'llama3.2:latest', 'hf.co/TheBloke/CodeLlama-7B-Instruct-GGUF:Q4_K_M', 'codellama:latest', 'hf.co/Triangle104/cogito-v1-preview-llama-8B-Q8_0-GGUF:latest', 'cogito:latest', 'deepcoder:latest']
+2025-06-11 18:34:37,968 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 18:34:38,022 - main - INFO - Initializing Self-Aware Agent f6a8cdb4-ded4-4f8a-b9f9-6950898581b3
+2025-06-11 18:34:38,028 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:34:38,028 - main - INFO - Available models: ['hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0', 'codellama:7b', 'mistral:7b', 'llava:7b', 'rolandroland/llama3.1-uncensored:latest', 'wizardlm-uncensored:latest', 'gemma3:4b', 'llama3.2:latest', 'hf.co/TheBloke/CodeLlama-7B-Instruct-GGUF:Q4_K_M', 'codellama:latest', 'hf.co/Triangle104/cogito-v1-preview-llama-8B-Q8_0-GGUF:latest', 'cogito:latest', 'deepcoder:latest']
+2025-06-11 18:48:08,376 - __main__ - INFO - Initializing Self-Aware Agent 78ffdc63
+2025-06-11 18:48:08,382 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:48:08,382 - __main__ - INFO - Selected fast model: llama3.2:latest
+2025-06-11 18:48:08,481 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 18:48:08,533 - __main__ - INFO - Testing model llama3.2:latest...
+2025-06-11 18:48:11,372 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:48:11,398 - __main__ - INFO - Creating initial self-model...
+2025-06-11 18:48:13,355 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:48:13,360 - __main__ - INFO - Initial self-model created
+2025-06-11 18:49:15,238 - __main__ - INFO - Thinking about: what do you know...
+2025-06-11 18:49:18,923 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:49:19,990 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:49:19,994 - __main__ - ERROR - Error in thinking process: Expected metadata value to be a str, int, float, bool, or None, got ['Knowledge graph', 'language generation', 'user engagement'] which is a list in add.
+2025-06-11 18:51:26,881 - __main__ - INFO - Thinking about: what do you know...
+2025-06-11 18:51:30,423 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:51:31,409 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:51:31,412 - __main__ - ERROR - Error in thinking process: Expected metadata value to be a str, int, float, bool, or None, got ['self-awareness', 'language processing', 'machine learning'] which is a list in add.
+2025-06-11 18:51:41,637 - __main__ - INFO - Initializing Self-Aware Agent c42f6456
+2025-06-11 18:51:41,644 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:51:41,644 - __main__ - INFO - Selected fast model: llama3.2:latest
+2025-06-11 18:51:41,745 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 18:51:41,800 - __main__ - INFO - Testing model llama3.2:latest...
+2025-06-11 18:51:42,138 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:51:42,140 - __main__ - INFO - Loaded existing self-model
+2025-06-11 18:51:45,615 - __main__ - INFO - Thinking about: what do you know...
+2025-06-11 18:51:49,111 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:51:50,182 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:51:51,003 - httpx - INFO - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2025-06-11 18:53:04,267 - __main__ - INFO - Thinking about: are you able to execute tasks...
+2025-06-11 18:53:07,811 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:53:08,676 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:54:06,019 - __main__ - INFO - Thinking about: what did you learned from our conversations...
+2025-06-11 18:54:09,782 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:54:10,807 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:55:06,467 - __main__ - INFO - Thinking about: why is your is_running: False?...
+2025-06-11 18:55:09,980 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:55:10,932 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:55:57,912 - __main__ - INFO - Beginning self-reflection...
+2025-06-11 18:55:59,852 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:56:02,194 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:56:02,194 - __main__ - INFO - Self-reflection completed
+2025-06-11 19:10:23,025 - __main__ - INFO - Initializing Self-Aware Agent e7fa1322
+2025-06-11 19:10:23,031 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 19:10:23,032 - __main__ - INFO - Selected model: hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0
+2025-06-11 19:10:23,133 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 19:10:23,190 - __main__ - INFO - Testing model hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0...
+2025-06-11 19:10:30,427 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:10:30,431 - __main__ - INFO - Loaded existing self-model
+2025-06-11 19:10:52,466 - __main__ - INFO - Thinking about: what can you do...
+2025-06-11 19:11:37,262 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:11:48,483 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:23:16,178 - __main__ - INFO - Initializing Self-Aware Agent 67282686
+2025-06-11 19:23:16,186 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 19:23:16,186 - __main__ - INFO - Selected model: hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0
+2025-06-11 19:23:16,327 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 19:23:16,383 - __main__ - INFO - Testing model hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0...
+2025-06-11 19:23:23,573 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:23:23,574 - __main__ - INFO - Model test completed in 7.19s
+2025-06-11 19:23:23,574 - __main__ - INFO - Loaded existing self-model
+2025-06-11 19:24:12,957 - __main__ - INFO - Thinking about: what did you learned from our converstaions and wh...
+2025-06-11 19:24:57,450 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:25:01,813 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:25:02,247 - __main__ - INFO - ✅ Thinking completed in 44.49s
+2025-06-11 19:27:21,604 - __main__ - INFO - Thinking about: you opened https://chatgpt.com/ now interact with ...
+2025-06-11 19:28:01,920 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:28:12,019 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:28:12,253 - __main__ - INFO - ✅ Thinking completed in 40.32s
+2025-06-11 19:30:39,012 - __main__ - INFO - Initializing Self-Aware Agent 4eb387e0
+2025-06-11 19:30:39,020 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 19:30:39,021 - __main__ - INFO - Selected model: hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0
+2025-06-11 19:30:39,154 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 19:30:39,208 - __main__ - INFO - Testing model hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0...
+2025-06-11 19:30:39,778 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:30:39,778 - __main__ - INFO - Model test completed in 0.57s
+2025-06-11 19:30:39,778 - __main__ - INFO - Loaded existing self-model
+2025-06-11 19:31:37,890 - __main__ - INFO - Thinking about: what do you need to be able to interact with every...
+2025-06-11 19:32:15,042 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:32:19,557 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:32:19,937 - __main__ - INFO - ✅ Thinking completed in 37.15s
+2025-06-11 19:56:15,095 - __main__ - INFO - Initializing Self-Aware Agent 0aece84a
+2025-06-11 19:56:15,103 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 19:56:15,103 - __main__ - INFO - Selected model: hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0
+2025-06-11 19:56:15,215 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 19:56:15,272 - __main__ - INFO - Testing model hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0...
+2025-06-11 19:56:22,234 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:56:22,234 - __main__ - INFO - Model test completed in 6.96s
+2025-06-11 19:56:22,235 - __main__ - INFO - Loaded existing self-model
+2025-06-11 19:57:31,427 - __main__ - INFO - Parsing intent from: can you please open chatgpt.com and tell him to gi...
+2025-06-11 19:57:40,001 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:57:40,002 - __main__ - INFO - Creating execution plan for: ActionType.GENERAL_QUESTION
+2025-06-11 19:57:40,002 - __main__ - INFO - Executing plan with 0 steps
+2025-06-11 19:58:55,404 - __main__ - INFO - Thinking about: why didnt you do what I told you?...
+2025-06-11 19:59:40,223 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:59:45,488 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 19:59:46,084 - __main__ - INFO - ✅ Thinking completed in 44.82s
+2025-06-11 20:00:21,441 - __main__ - INFO - Parsing intent from: open program Brave its a browser installed on this...
+2025-06-11 20:00:30,075 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:00:30,075 - __main__ - INFO - Creating execution plan for: ActionType.OPEN_PROGRAM
+2025-06-11 20:00:30,075 - __main__ - INFO - Executing plan with 1 steps
+2025-06-11 20:20:15,699 - __main__ - INFO - Initializing Self-Aware Agent 8db466a3
+2025-06-11 20:20:15,708 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 20:20:15,708 - __main__ - INFO - Selected model: hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0
+2025-06-11 20:20:15,838 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 20:20:15,892 - __main__ - INFO - Testing model hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0...
+2025-06-11 20:20:22,492 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:20:22,493 - __main__ - INFO - Model test completed in 6.60s
+2025-06-11 20:20:22,494 - __main__ - INFO - Loaded existing self-model
+2025-06-11 20:20:35,256 - __main__ - INFO - Parsing intent from: open notepad and write hello world...
+2025-06-11 20:20:43,653 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:20:43,654 - __main__ - INFO - Creating execution plan for: ActionType.INTERACT_WEB
+2025-06-11 20:20:43,654 - __main__ - INFO - Executing plan with 0 steps
+2025-06-11 20:21:02,228 - __main__ - INFO - Parsing intent from: hey go to chatgpt.com...
+2025-06-11 20:21:10,616 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:21:10,617 - __main__ - INFO - Creating execution plan for: ActionType.BROWSE_WEB
+2025-06-11 20:21:10,617 - __main__ - INFO - Capability gaps detected: ['web_interaction']
+2025-06-11 20:21:32,579 - __main__ - INFO - Processing upgrade request for: advanced_automation
+2025-06-11 20:21:32,580 - __main__ - INFO - Installing modules for advanced_automation...
+2025-06-11 20:21:33,957 - __main__ - INFO - Loaded existing self-model
+2025-06-11 20:21:59,933 - __main__ - INFO - Thinking about: hey open chatgpt.com website in browser and ask ho...
+2025-06-11 20:22:42,481 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:22:53,118 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:22:53,703 - __main__ - INFO - ✅ Thinking completed in 42.55s
+2025-06-11 20:24:12,987 - __main__ - INFO - Thinking about: hey, what is your name I want to call you somehow....
+2025-06-11 20:24:16,461 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:24:22,431 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:24:22,666 - __main__ - INFO - ✅ Thinking completed in 3.47s
+2025-06-11 20:24:51,540 - __main__ - INFO - Parsing intent from: I give you permission to chose name for yourself...
+2025-06-11 20:24:59,899 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:24:59,899 - __main__ - INFO - Creating execution plan for: ActionType.GENERAL_QUESTION
+2025-06-11 20:24:59,900 - __main__ - INFO - Executing plan with 0 steps
+2025-06-11 20:25:10,434 - __main__ - INFO - Thinking about: what is your name...
+2025-06-11 20:25:52,960 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:25:55,977 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:25:56,217 - __main__ - INFO - ✅ Thinking completed in 42.53s
+2025-06-11 20:55:38,331 - __main__ - INFO - Initializing Self-Aware Agent 57672abc
+2025-06-11 20:55:38,338 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 20:55:38,338 - __main__ - INFO - Selected model: hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0
+2025-06-11 20:55:38,459 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 20:55:38,512 - __main__ - INFO - Testing model hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0...
+2025-06-11 20:55:45,412 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:55:45,412 - __main__ - INFO - Model test completed in 6.90s
+2025-06-11 20:55:45,413 - __main__ - INFO - Loaded existing self-model
+2025-06-11 20:57:31,307 - __main__ - INFO - Thinking about: open chatgpt.com website and ask him how are you...
+2025-06-11 20:58:11,601 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:58:11,601 - __main__ - WARNING - Response quality issue: Excessive hashtags detected
+2025-06-11 20:58:19,800 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 20:58:20,223 - __main__ - INFO - ✅ Thinking completed in 40.29s
+2025-06-11 20:58:55,772 - __main__ - INFO - Parsing intent from: open notepad and write hello world...
+2025-06-11 20:58:55,773 - __main__ - INFO - Classified 'open notepad and write hello w...' as open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 20:58:55,773 - __main__ - INFO - Creating execution plan for: ActionType.OPEN_PROGRAM
+2025-06-11 20:58:55,773 - __main__ - INFO - Creating plan for action: open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 20:58:55,773 - __main__ - INFO - Plan created with 2 steps, 1 gaps, 0.70 success rate
+2025-06-11 20:58:55,773 - __main__ - INFO - Capability gaps detected: ['advanced_automation']
+2025-06-11 20:58:58,919 - __main__ - INFO - Processing upgrade request for: advanced_automation
+2025-06-11 20:58:58,920 - __main__ - INFO - Installing modules for advanced_automation...
+2025-06-11 20:58:59,888 - __main__ - INFO - Loaded existing self-model
+2025-06-11 20:59:09,802 - __main__ - INFO - Parsing intent from: open notepad and write hello world...
+2025-06-11 20:59:09,802 - __main__ - INFO - Classified 'open notepad and write hello w...' as open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 20:59:09,802 - __main__ - INFO - Creating execution plan for: ActionType.OPEN_PROGRAM
+2025-06-11 20:59:09,802 - __main__ - INFO - Creating plan for action: open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 20:59:09,803 - __main__ - INFO - Plan created with 2 steps, 0 gaps, 1.00 success rate
+2025-06-11 20:59:09,803 - __main__ - INFO - Executing plan with 2 steps
+2025-06-11 20:59:09,803 - __main__ - INFO - Executing step: open_program with params: {'program': 'notepad'}
+2025-06-11 20:59:09,807 - __main__ - INFO - Executing step: type_content with params: {'content': 'hello world'}
+2025-06-11 20:59:20,784 - __main__ - INFO - Processing upgrade request for: advanced_automation
+2025-06-11 20:59:20,785 - __main__ - INFO - Installing modules for advanced_automation...
+2025-06-11 20:59:21,590 - __main__ - INFO - Loaded existing self-model
+2025-06-11 20:59:29,013 - __main__ - INFO - Parsing intent from: open notepad and write hello world...
+2025-06-11 20:59:29,014 - __main__ - INFO - Classified 'open notepad and write hello w...' as open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 20:59:29,015 - __main__ - INFO - Creating execution plan for: ActionType.OPEN_PROGRAM
+2025-06-11 20:59:29,016 - __main__ - INFO - Creating plan for action: open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 20:59:29,016 - __main__ - INFO - Plan created with 2 steps, 0 gaps, 1.00 success rate
+2025-06-11 20:59:29,017 - __main__ - INFO - Executing plan with 2 steps
+2025-06-11 20:59:29,017 - __main__ - INFO - Executing step: open_program with params: {'program': 'notepad'}
+2025-06-11 20:59:29,023 - __main__ - INFO - Executing step: type_content with params: {'content': 'hello world'}
+2025-06-11 21:03:56,853 - __main__ - INFO - Initializing Self-Aware Agent bcbf2109
+2025-06-11 21:03:56,861 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 21:03:56,861 - __main__ - INFO - Selected model: hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0
+2025-06-11 21:03:56,992 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 21:03:57,048 - __main__ - INFO - Testing model hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0...
+2025-06-11 21:04:03,977 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:04:03,977 - __main__ - INFO - Model test completed in 6.93s
+2025-06-11 21:04:03,978 - __main__ - INFO - Loaded existing self-model
+2025-06-11 21:05:32,616 - __main__ - INFO - Parsing intent from: PS C:\Users\Korisnik\Documents\agent> python main....
+2025-06-11 21:05:32,616 - __main__ - INFO - Classified 'PS C:\Users\Korisnik\Documents...' as general_question with entities: {}
+2025-06-11 21:05:32,616 - __main__ - INFO - Creating execution plan for: ActionType.GENERAL_QUESTION
+2025-06-11 21:05:32,616 - __main__ - INFO - Creating plan for action: general_question with entities: {}
+2025-06-11 21:05:32,616 - __main__ - INFO - Plan created with 1 steps, 0 gaps, 1.00 success rate
+2025-06-11 21:05:32,617 - __main__ - INFO - Executing plan with 1 steps
+2025-06-11 21:05:32,617 - __main__ - INFO - Executing step: think_and_respond with params: {'query': 'PS C:\\Users\\Korisnik\\Documents\\agent> python main.py'}
+2025-06-11 21:05:32,617 - __main__ - INFO - Thinking about: PS C:\Users\Korisnik\Documents\agent> python main....
+2025-06-11 21:06:44,453 - __main__ - INFO - Initializing Self-Aware Agent dbbeaeea
+2025-06-11 21:06:44,460 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 21:06:44,461 - __main__ - INFO - Selected model: hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0
+2025-06-11 21:06:44,592 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 21:06:44,649 - __main__ - INFO - Testing model hf.co/mradermacher/Qwen2.5-7B-sft-SPIN-gpt4o-GGUF:Q8_0...
+2025-06-11 21:06:45,076 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:06:45,077 - __main__ - INFO - Model test completed in 0.43s
+2025-06-11 21:06:45,077 - __main__ - INFO - Loaded existing self-model
+2025-06-11 21:06:51,244 - __main__ - INFO - Parsing intent from: open notepad and write hello world...
+2025-06-11 21:06:51,245 - __main__ - INFO - Classified 'open notepad and write hello w...' as open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 21:06:51,245 - __main__ - INFO - Creating execution plan for: ActionType.OPEN_PROGRAM
+2025-06-11 21:06:51,245 - __main__ - INFO - Creating plan for action: open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 21:06:51,246 - __main__ - INFO - Plan created with 2 steps, 1 gaps, 0.70 success rate
+2025-06-11 21:06:51,246 - __main__ - INFO - Capability gaps detected: ['advanced_automation']
+2025-06-11 21:06:54,223 - __main__ - INFO - Processing upgrade request for: advanced_automation
+2025-06-11 21:06:54,223 - __main__ - INFO - Installing modules for advanced_automation...
+2025-06-11 21:06:55,180 - __main__ - INFO - Loaded existing self-model
+2025-06-11 21:06:58,627 - __main__ - INFO - Parsing intent from: open notepad and write hello world...
+2025-06-11 21:06:58,628 - __main__ - INFO - Classified 'open notepad and write hello w...' as open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 21:06:58,632 - __main__ - INFO - Creating execution plan for: ActionType.OPEN_PROGRAM
+2025-06-11 21:06:58,633 - __main__ - INFO - Creating plan for action: open_program with entities: {'program': 'notepad', 'content': 'hello world'}
+2025-06-11 21:06:58,634 - __main__ - INFO - Plan created with 2 steps, 0 gaps, 1.00 success rate
+2025-06-11 21:06:58,634 - __main__ - INFO - Executing plan with 2 steps
+2025-06-11 21:06:58,635 - __main__ - INFO - Executing step: open_program with params: {'program': 'notepad'}
+2025-06-11 21:06:58,642 - __main__ - INFO - Executing step: type_content with params: {'content': 'hello world'}
+2025-06-11 21:07:55,506 - __main__ - INFO - Parsing intent from: your content typing capability doesnt work pleaase...
+2025-06-11 21:07:55,507 - __main__ - INFO - Classified 'your content typing capability...' as general_question with entities: {'content': 'inside notepad'}
+2025-06-11 21:07:55,508 - __main__ - INFO - Creating execution plan for: ActionType.GENERAL_QUESTION
+2025-06-11 21:07:55,508 - __main__ - INFO - Creating plan for action: general_question with entities: {'content': 'inside notepad'}
+2025-06-11 21:07:55,508 - __main__ - INFO - Plan created with 1 steps, 0 gaps, 1.00 success rate
+2025-06-11 21:07:55,509 - __main__ - INFO - Executing plan with 1 steps
+2025-06-11 21:07:55,509 - __main__ - INFO - Executing step: think_and_respond with params: {'query': 'your content typing capability doesnt work pleaase fix it so that you can actually type inside notepad'}
+2025-06-11 21:07:55,509 - __main__ - INFO - Thinking about: your content typing capability doesnt work pleaase...
+2025-06-11 21:08:01,937 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:08:13,286 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:08:13,867 - __main__ - INFO - ✅ Thinking completed in 6.43s
+2025-06-11 21:08:42,470 - __main__ - INFO - Parsing intent from: okay fix your typing capability now...
+2025-06-11 21:08:42,471 - __main__ - INFO - Classified 'okay fix your typing capabilit...' as general_question with entities: {}
+2025-06-11 21:08:42,471 - __main__ - INFO - Creating execution plan for: ActionType.GENERAL_QUESTION
+2025-06-11 21:08:42,471 - __main__ - INFO - Creating plan for action: general_question with entities: {}
+2025-06-11 21:08:42,471 - __main__ - INFO - Plan created with 1 steps, 0 gaps, 1.00 success rate
+2025-06-11 21:08:42,471 - __main__ - INFO - Executing plan with 1 steps
+2025-06-11 21:08:42,472 - __main__ - INFO - Executing step: think_and_respond with params: {'query': 'okay fix your typing capability now'}
+2025-06-11 21:08:42,472 - __main__ - INFO - Thinking about: okay fix your typing capability now...
+2025-06-11 21:08:46,997 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:08:58,368 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:08:58,553 - __main__ - INFO - ✅ Thinking completed in 4.53s
+2025-06-11 21:09:20,889 - __main__ - INFO - Parsing intent from: open chatgpt.com website...
+2025-06-11 21:09:20,891 - __main__ - INFO - Classified 'open chatgpt.com website...' as browse_web with entities: {'url': 'chatgpt.com'}
+2025-06-11 21:09:20,891 - __main__ - INFO - Creating execution plan for: ActionType.BROWSE_WEB
+2025-06-11 21:09:20,891 - __main__ - INFO - Creating plan for action: browse_web with entities: {'url': 'chatgpt.com'}
+2025-06-11 21:09:20,891 - __main__ - INFO - Plan created with 2 steps, 1 gaps, 0.70 success rate
+2025-06-11 21:09:20,891 - __main__ - INFO - Capability gaps detected: ['web_interaction']
+2025-06-11 21:09:22,883 - __main__ - INFO - Processing upgrade request for: advanced_automation
+2025-06-11 21:09:22,884 - __main__ - INFO - Installing modules for advanced_automation...
+2025-06-11 21:09:23,695 - __main__ - INFO - Loaded existing self-model
+2025-06-11 21:09:34,876 - __main__ - INFO - Parsing intent from: go to chatgpt.com and ask how are you...
+2025-06-11 21:09:34,877 - __main__ - INFO - Classified 'go to chatgpt.com and ask how ...' as browse_web with entities: {'url': 'chatgpt.com'}
+2025-06-11 21:09:34,877 - __main__ - INFO - Creating execution plan for: ActionType.BROWSE_WEB
+2025-06-11 21:09:34,880 - __main__ - INFO - Creating plan for action: browse_web with entities: {'url': 'chatgpt.com'}
+2025-06-11 21:09:34,882 - __main__ - INFO - Plan created with 2 steps, 1 gaps, 0.70 success rate
+2025-06-11 21:09:34,883 - __main__ - INFO - Capability gaps detected: ['web_interaction']
+2025-06-11 21:09:36,433 - __main__ - INFO - Processing upgrade request for: advanced_automation
+2025-06-11 21:09:36,434 - __main__ - INFO - Installing modules for advanced_automation...
+2025-06-11 21:09:37,241 - __main__ - INFO - Loaded existing self-model
+2025-06-11 21:09:39,383 - __main__ - INFO - Parsing intent from: go to chatgpt.com and ask how are you...
+2025-06-11 21:09:39,384 - __main__ - INFO - Classified 'go to chatgpt.com and ask how ...' as browse_web with entities: {'url': 'chatgpt.com'}
+2025-06-11 21:09:39,384 - __main__ - INFO - Creating execution plan for: ActionType.BROWSE_WEB
+2025-06-11 21:09:39,384 - __main__ - INFO - Creating plan for action: browse_web with entities: {'url': 'chatgpt.com'}
+2025-06-11 21:09:39,384 - __main__ - INFO - Plan created with 2 steps, 1 gaps, 0.70 success rate
+2025-06-11 21:09:39,384 - __main__ - INFO - Capability gaps detected: ['web_interaction']
+2025-06-11 21:09:44,987 - __main__ - INFO - Processing upgrade request for: advanced_automation
+2025-06-11 21:09:44,988 - __main__ - INFO - Installing modules for advanced_automation...
+2025-06-11 21:09:45,793 - __main__ - INFO - Loaded existing self-model
+2025-06-11 21:09:57,226 - __main__ - INFO - Parsing intent from: what did you learned...
+2025-06-11 21:09:57,227 - __main__ - INFO - Classified 'what did you learned...' as general_question with entities: {'query': 'what did you learned'}
+2025-06-11 21:09:57,228 - __main__ - INFO - Creating execution plan for: ActionType.GENERAL_QUESTION
+2025-06-11 21:09:57,229 - __main__ - INFO - Creating plan for action: general_question with entities: {'query': 'what did you learned'}
+2025-06-11 21:09:57,231 - __main__ - INFO - Plan created with 1 steps, 0 gaps, 1.00 success rate
+2025-06-11 21:09:57,232 - __main__ - INFO - Executing plan with 1 steps
+2025-06-11 21:09:57,232 - __main__ - INFO - Executing step: think_and_respond with params: {'query': 'what did you learned'}
+2025-06-11 21:09:57,233 - __main__ - INFO - Thinking about: what did you learned...
+2025-06-11 21:10:34,189 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:10:34,190 - __main__ - WARNING - Response quality issue: Excessive hashtags detected
+2025-06-11 21:10:39,134 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:10:39,374 - __main__ - INFO - ✅ Thinking completed in 36.96s
+2025-06-11 21:17:11,585 - __main__ - INFO - 🧠 Initializing Truly Capable Agent 39f38111
+2025-06-11 21:17:11,591 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 21:17:11,592 - __main__ - WARNING - Model selection error: 'name'
+2025-06-11 21:17:11,592 - __main__ - INFO - 🤖 Using model: llama3.2:latest
+2025-06-11 21:17:11,697 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 21:17:11,853 - __main__ - INFO - ✅ Selenium web automation available
+2025-06-11 21:17:12,147 - __main__ - INFO - ✅ PyAutoGUI system automation available
+2025-06-11 21:17:12,147 - __main__ - INFO - ✅ System automation capability enabled
+2025-06-11 21:17:12,147 - __main__ - INFO - ✅ Web automation capability enabled
+2025-06-11 21:17:12,147 - __main__ - INFO - ✅ Agent initialization complete
+2025-06-11 21:25:30,230 - __main__ - INFO - 🔄 Processing: open notepad and write hello world...
+2025-06-11 21:25:30,231 - __main__ - ERROR - Intent parsing error: 'NoneType' object has no attribute 'strip'
+2025-06-11 21:25:30,637 - __main__ - WARNING - Failed to retrieve experiences: tuple index out of range
+2025-06-11 21:25:38,739 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:25:38,741 - __main__ - WARNING - Failed to store experience: table experiences has 9 columns but 10 values were supplied
+2025-06-11 21:26:49,897 - __main__ - INFO - 🔄 Processing: why dont you open notepad and write Hello World...
+2025-06-11 21:26:49,898 - __main__ - ERROR - Intent parsing error: 'NoneType' object has no attribute 'strip'
+2025-06-11 21:26:50,130 - __main__ - WARNING - Failed to retrieve experiences: tuple index out of range
+2025-06-11 21:26:55,615 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:26:55,616 - __main__ - WARNING - Failed to store experience: table experiences has 9 columns but 10 values were supplied
+2025-06-11 21:30:18,663 - INFO - 🚀 Initializing Functional Agent 13d078b2
+2025-06-11 21:30:18,668 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 21:30:18,669 - WARNING - Model detection failed: 'name'
+2025-06-11 21:30:18,669 - INFO - 🤖 Using model: llama3.2:latest
+2025-06-11 21:30:18,791 - INFO - ✅ Real automation available
+2025-06-11 21:30:18,792 - INFO - ✅ Functional Agent ready!
+2025-06-11 21:30:32,928 - INFO - 🔄 Processing: open notepad and write hello world
+2025-06-11 21:30:32,929 - INFO - Detected action: open_program_and_type (confidence: 0.95)
+2025-06-11 21:30:32,929 - INFO - Opening notepad via Run dialog
+2025-06-11 21:30:36,040 - INFO - Typing text: hello world
+2025-06-11 21:30:36,157 - INFO - Learned from open_program_and_type: Success
+2025-06-11 21:30:56,263 - INFO - 🔄 Processing: now in the same notepad under hello world write I am AI!
+2025-06-11 21:30:56,265 - INFO - Detected action: reasoning (confidence: 0.70)
+2025-06-11 21:31:00,362 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:31:00,362 - INFO - Learned from reasoning: Success
+2025-06-11 21:32:57,496 - INFO - 🚀 Initializing Functional Agent 5a5e3902
+2025-06-11 21:32:57,508 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 21:32:57,509 - WARNING - Model detection failed: 'name'
+2025-06-11 21:32:57,509 - INFO - 🤖 Using model: llama3.2:latest
+2025-06-11 21:32:57,655 - INFO - ✅ Real automation available
+2025-06-11 21:32:57,655 - INFO - ✅ Functional Agent ready!
+2025-06-11 21:33:01,871 - INFO - 🔄 Processing: open notepad and write hello world
+2025-06-11 21:33:01,872 - INFO - Detected action: open_program_and_type (confidence: 0.95)
+2025-06-11 21:33:01,872 - INFO - Opening notepad via Run dialog
+2025-06-11 21:33:04,998 - INFO - Typing text: hello world
+2025-06-11 21:33:05,119 - INFO - Learned from open_program_and_type: Success
+2025-06-11 21:33:12,867 - INFO - 🔄 Processing: now in the same notepad under hello world write I am AI!
+2025-06-11 21:33:12,868 - INFO - Detected action: type_text (confidence: 0.90)
+2025-06-11 21:33:12,869 - INFO - Typing text into active window: i am ai!
+2025-06-11 21:33:13,085 - INFO - Learned from type_text: Success
+2025-06-11 21:33:43,593 - INFO - 🔄 Processing: you wrote text into active window while I told you write in notepad file you just created..
+2025-06-11 21:33:43,594 - INFO - Detected action: type_text (confidence: 0.90)
+2025-06-11 21:33:43,594 - INFO - Typing text into active window: in notepad file you just created..
+2025-06-11 21:33:43,825 - INFO - Learned from type_text: Success
+2025-06-11 21:33:54,930 - INFO - 🔄 Processing: who are you
+2025-06-11 21:33:54,930 - INFO - Detected action: reasoning (confidence: 0.70)
+2025-06-11 21:33:57,285 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:33:57,285 - INFO - Learned from reasoning: Success
+2025-06-11 21:34:22,444 - INFO - 🔄 Processing: hey open chatgpt.com website and type Hey, how are you! in dialog
+2025-06-11 21:34:22,445 - INFO - Detected action: open_website (confidence: 0.90)
+2025-06-11 21:34:22,611 - INFO - Learned from open_website: Success
+2025-06-11 21:34:42,871 - INFO - 🔄 Processing: what did you Learned from open_website: Success
+2025-06-11 21:34:42,872 - INFO - Detected action: reasoning (confidence: 0.70)
+2025-06-11 21:34:45,992 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:34:45,992 - INFO - Learned from reasoning: Success
+2025-06-11 21:35:25,538 - INFO - 🔄 Processing: create new code that will be simple python snake game, test and debug code until it works perfectly
+2025-06-11 21:35:25,539 - INFO - Detected action: reasoning (confidence: 0.70)
+2025-06-11 21:35:28,910 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:35:28,911 - INFO - Learned from reasoning: Success
+2025-06-11 21:38:09,727 - INFO - 🔄 Processing: help
+2025-06-11 21:38:09,728 - INFO - Detected action: reasoning (confidence: 0.70)
+2025-06-11 21:38:13,141 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 21:38:13,142 - INFO - Learned from reasoning: Success
+2025-06-11 21:43:08,816 - INFO - 🧠 Initializing Truly Intelligent Agent fa334e9a
+2025-06-11 21:43:08,826 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 21:43:08,827 - WARNING - Model discovery failed: 'name'
+2025-06-11 21:43:08,827 - INFO - 🤖 Found 1 available models
+2025-06-11 21:43:08,827 - INFO - 📋 Assigned llama3.2:latest to reasoning
+2025-06-11 21:43:08,827 - INFO - 📋 Assigned llama3.2:latest to coding
+2025-06-11 21:43:08,827 - INFO - 📋 Assigned llama3.2:latest to planning
+2025-06-11 21:43:08,828 - INFO - 📋 Assigned llama3.2:latest to analysis
+2025-06-11 21:43:08,828 - INFO - 📋 Assigned llama3.2:latest to creativity
+2025-06-11 21:43:08,828 - INFO - 📋 Assigned llama3.2:latest to research
+2025-06-11 21:43:08,828 - INFO - 📋 Assigned llama3.2:latest to debugging
+2025-06-11 21:43:08,997 - INFO - ✅ Automation capabilities available
+2025-06-11 21:43:08,997 - INFO - ✅ Truly Intelligent Agent ready!
+2025-06-11 23:33:46,574 - INFO - 🔄 Processing: open notepad and write hello world...
+2025-06-11 23:33:46,575 - INFO - Self-assessed confidence: 0.30
+2025-06-11 23:33:46,575 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-11 23:33:46,575 - INFO - 🤔 Deep thinking about: open notepad and write hello world...
+2025-06-11 23:33:54,629 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:34:01,463 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:34:09,061 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:34:15,078 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:34:20,212 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:34:24,876 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:34:31,314 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:34:44,321 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:34:44,321 - INFO - ⚡ Handling simple task...
+2025-06-11 23:34:44,321 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-11 23:34:50,094 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:55:32,983 - INFO - 🔄 Processing: open notepad and write hello world...
+2025-06-11 23:55:32,984 - INFO - Self-assessed confidence: 0.30
+2025-06-11 23:55:32,985 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-11 23:55:32,985 - INFO - 🤔 Deep thinking about: open notepad and write hello world...
+2025-06-11 23:55:40,505 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:55:46,406 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:55:53,432 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:55:58,328 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:56:05,274 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:56:12,525 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:56:18,528 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:56:27,272 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:56:27,272 - INFO - ⚡ Handling simple task...
+2025-06-11 23:56:27,272 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-11 23:56:33,567 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:57:34,516 - INFO - 🔄 Processing: now in the same notepad under hello world you just...
+2025-06-11 23:57:34,516 - INFO - Self-assessed confidence: 0.30
+2025-06-11 23:57:34,517 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-11 23:57:34,517 - INFO - 🤔 Deep thinking about: now in the same notepad under hello world you just...
+2025-06-11 23:57:35,167 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:57:35,521 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:57:39,372 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:57:39,654 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:57:43,318 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:57:43,609 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:57:47,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:57:55,514 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 23:57:55,515 - INFO - ⚡ Handling simple task...
+2025-06-11 23:57:55,515 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-11 23:57:55,853 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:39:52,764 - INFO - 🧠 Initializing Truly Intelligent Agent aac22604
+2025-06-12 00:39:52,771 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 00:39:52,772 - WARNING - Model discovery failed: 'name'
+2025-06-12 00:39:52,772 - INFO - 🤖 Found 1 available models
+2025-06-12 00:39:52,772 - INFO - 📋 Assigned llama3.2:latest to reasoning
+2025-06-12 00:39:52,772 - INFO - 📋 Assigned llama3.2:latest to coding
+2025-06-12 00:39:52,772 - INFO - 📋 Assigned llama3.2:latest to planning
+2025-06-12 00:39:52,772 - INFO - 📋 Assigned llama3.2:latest to analysis
+2025-06-12 00:39:52,772 - INFO - 📋 Assigned llama3.2:latest to creativity
+2025-06-12 00:39:52,772 - INFO - 📋 Assigned llama3.2:latest to research
+2025-06-12 00:39:52,772 - INFO - 📋 Assigned llama3.2:latest to debugging
+2025-06-12 00:39:52,893 - INFO - ✅ Automation capabilities available
+2025-06-12 00:39:52,893 - INFO - ✅ Truly Intelligent Agent ready!
+2025-06-12 00:39:59,686 - INFO - 🔄 Processing: hey what is my name...
+2025-06-12 00:39:59,686 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:39:59,687 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:39:59,688 - INFO - 🤔 Deep thinking about: hey what is my name...
+2025-06-12 00:40:05,803 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:40:10,639 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:40:15,657 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:40:19,228 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:40:24,759 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:40:27,341 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:40:32,768 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:40:42,311 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:40:42,311 - INFO - ⚡ Handling simple task...
+2025-06-12 00:40:42,311 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:40:47,327 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:41:47,956 - INFO - 🔄 Processing: my name is Amar, remmember it...
+2025-06-12 00:41:47,957 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:41:47,957 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:41:47,958 - INFO - 🤔 Deep thinking about: my name is Amar, remmember it...
+2025-06-12 00:41:50,485 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:41:51,729 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:41:57,468 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:42:01,899 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:42:05,379 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:42:06,467 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:42:09,925 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:42:18,513 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:42:18,514 - INFO - ⚡ Handling simple task...
+2025-06-12 00:42:18,514 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:42:24,598 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:42:57,672 - INFO - 🔄 Processing: what is my name?...
+2025-06-12 00:42:57,673 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:42:57,674 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:42:57,675 - INFO - 🤔 Deep thinking about: what is my name?...
+2025-06-12 00:43:01,356 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:43:03,417 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:43:09,565 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:43:14,130 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:43:19,411 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:43:21,958 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:43:25,529 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:43:33,731 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:43:33,732 - INFO - ⚡ Handling simple task...
+2025-06-12 00:43:33,732 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:43:38,933 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:44:10,839 - INFO - 🔄 Processing: hey can you open notepad and write I am ai agent...
+2025-06-12 00:44:10,840 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:44:10,840 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:44:10,841 - INFO - 🤔 Deep thinking about: hey can you open notepad and write I am ai agent...
+2025-06-12 00:44:13,944 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:44:17,721 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:44:23,258 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:44:28,256 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:44:33,385 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:44:36,395 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:44:41,674 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:44:53,645 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:44:53,646 - INFO - ⚡ Handling simple task...
+2025-06-12 00:44:53,646 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:45:00,796 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:45:22,420 - INFO - 🔄 Processing: close all notepad files that are opened...
+2025-06-12 00:45:22,421 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:45:22,421 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:45:22,422 - INFO - 🤔 Deep thinking about: close all notepad files that are opened...
+2025-06-12 00:45:28,912 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:45:34,650 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:45:40,278 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:45:46,041 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:45:51,741 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:45:57,197 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:46:02,807 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:46:12,771 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:46:12,772 - INFO - ⚡ Handling simple task...
+2025-06-12 00:46:12,772 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:46:20,623 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:47:40,337 - INFO - 🔄 Processing: okay now since you gave me details on how to close...
+2025-06-12 00:47:40,337 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:47:40,338 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:47:40,338 - INFO - 🤔 Deep thinking about: okay now since you gave me details on how to close...
+2025-06-12 00:47:44,319 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:47:51,924 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:47:52,282 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:48:00,309 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:48:05,879 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:48:06,358 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:48:11,027 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:48:20,544 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:48:20,544 - INFO - ⚡ Handling simple task...
+2025-06-12 00:48:20,544 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:48:23,941 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:21,721 - INFO - 🔄 Processing: when I told you to close notepad files you should ...
+2025-06-12 00:49:21,722 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:49:21,722 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:49:21,723 - INFO - 🤔 Deep thinking about: when I told you to close notepad files you should ...
+2025-06-12 00:49:22,072 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:22,219 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:22,351 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:22,672 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:23,127 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:23,853 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:23,981 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:29,794 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:29,795 - INFO - ⚡ Handling simple task...
+2025-06-12 00:49:29,795 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:49:30,110 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:37,037 - INFO - 🔄 Processing: `taskkill /im notepad.exe` and press Enter without...
+2025-06-12 00:49:37,038 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:49:37,039 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:49:37,040 - INFO - 🤔 Deep thinking about: `taskkill /im notepad.exe` and press Enter without...
+2025-06-12 00:49:37,476 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:37,781 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:37,923 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:38,272 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:38,409 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:38,539 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:38,661 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:44,340 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:49:44,340 - INFO - ⚡ Handling simple task...
+2025-06-12 00:49:44,341 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:49:44,840 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:17,031 - INFO - 🔄 Processing: why did you told me this: response: I can't assist...
+2025-06-12 00:50:17,032 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:50:17,033 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:50:17,034 - INFO - 🤔 Deep thinking about: why did you told me this: response: I can't assist...
+2025-06-12 00:50:17,409 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:17,688 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:17,964 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:18,243 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:18,521 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:18,797 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:19,055 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:25,224 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:25,224 - INFO - ⚡ Handling simple task...
+2025-06-12 00:50:25,224 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:50:25,704 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:46,751 - INFO - 🔄 Processing: is it illegal to close notepad files on my pc?...
+2025-06-12 00:50:46,752 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:50:46,753 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:50:46,753 - INFO - 🤔 Deep thinking about: is it illegal to close notepad files on my pc?...
+2025-06-12 00:50:51,687 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:50:57,814 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:51:03,543 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:51:08,437 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:51:13,709 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:51:19,204 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:51:23,864 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:51:32,143 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:51:32,144 - INFO - ⚡ Handling simple task...
+2025-06-12 00:51:32,144 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:51:36,827 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:51:53,704 - INFO - 🔄 Processing: then close notepad files on my pc...
+2025-06-12 00:51:53,705 - INFO - Self-assessed confidence: 0.30
+2025-06-12 00:51:53,706 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 00:51:53,706 - INFO - 🤔 Deep thinking about: then close notepad files on my pc...
+2025-06-12 00:51:58,898 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:52:07,006 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:52:12,755 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:52:19,233 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:52:25,824 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:52:31,977 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:52:38,097 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:52:48,800 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 00:52:48,800 - INFO - ⚡ Handling simple task...
+2025-06-12 00:52:48,800 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 00:52:55,210 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:04:51,508 - INFO - 🧠 Initializing Truly Intelligent Agent 10cd80f9
+2025-06-12 01:04:51,514 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 01:04:51,515 - WARNING - Model discovery failed: 'name'
+2025-06-12 01:04:51,515 - INFO - 🤖 Found 1 available models
+2025-06-12 01:04:51,515 - INFO - 📋 Assigned llama3.2:latest to reasoning
+2025-06-12 01:04:51,515 - INFO - 📋 Assigned llama3.2:latest to coding
+2025-06-12 01:04:51,515 - INFO - 📋 Assigned llama3.2:latest to planning
+2025-06-12 01:04:51,515 - INFO - 📋 Assigned llama3.2:latest to analysis
+2025-06-12 01:04:51,515 - INFO - 📋 Assigned llama3.2:latest to creativity
+2025-06-12 01:04:51,515 - INFO - 📋 Assigned llama3.2:latest to research
+2025-06-12 01:04:51,515 - INFO - 📋 Assigned llama3.2:latest to debugging
+2025-06-12 01:04:51,515 - INFO - ✅ PermissionParser initialized with flexible patterns
+2025-06-12 01:04:51,515 - INFO - ✅ SystemCommandExecutor initialized with universal mappings
+2025-06-12 01:04:51,639 - INFO - ✅ Automation capabilities available
+2025-06-12 01:04:51,639 - INFO - ✅ Truly Intelligent Agent ready!
+2025-06-12 01:05:09,805 - INFO - 🔄 Processing: close notepads opened on this pc...
+2025-06-12 01:05:09,805 - INFO - Self-assessed confidence: 0.30
+2025-06-12 01:05:09,805 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 01:05:09,805 - INFO - 🤔 Deep thinking about: close notepads opened on this pc...
+2025-06-12 01:05:17,358 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:05:24,507 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:05:30,641 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:05:37,098 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:05:43,025 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:05:44,757 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:05:51,719 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:06:02,931 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:06:02,932 - INFO - ⚡ Handling simple task...
+2025-06-12 01:06:02,932 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 01:06:11,574 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:06:57,940 - INFO - 🔄 Processing: I give you permission to close all opened notepads...
+2025-06-12 01:06:57,941 - INFO - Self-assessed confidence: 0.30
+2025-06-12 01:06:57,941 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 01:06:57,941 - INFO - 🤔 Deep thinking about: I give you permission to close all opened notepads...
+2025-06-12 01:06:58,472 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:07:05,538 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:07:12,607 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:07:19,394 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:07:19,800 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:07:20,173 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:07:28,594 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:07:38,872 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:07:38,873 - INFO - ⚡ Handling simple task...
+2025-06-12 01:07:38,873 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 01:07:47,749 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:07:47,750 - INFO - 🛡️ Permission detected: i give you permission to close all opened notepads using cmd or powershell
+2025-06-12 01:07:47,750 - INFO - 🔧 Executing permission-based command: close all opened notepads using cmd or powershell
+2025-06-12 01:07:47,750 - INFO - 🚀 Running system command: taskkill /im notepad.exe /f
+2025-06-12 01:08:22,833 - INFO - 🔄 Processing: open notepad and say I am smart now...
+2025-06-12 01:08:22,834 - INFO - Self-assessed confidence: 0.30
+2025-06-12 01:08:22,835 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 01:08:22,835 - INFO - 🤔 Deep thinking about: open notepad and say I am smart now...
+2025-06-12 01:08:27,406 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:08:38,024 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:08:44,822 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:08:49,975 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:08:56,728 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:09:01,072 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:09:06,887 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:09:16,430 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:09:16,431 - INFO - ⚡ Handling simple task...
+2025-06-12 01:09:16,431 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 01:09:16,977 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:36:33,649 - INFO - 🚀 Starting Enhanced Truly Intelligent Agent...
+2025-06-12 01:36:33,657 - INFO - 🚀 Initializing Enhanced Truly Intelligent Agent c301f96a
+2025-06-12 01:36:33,671 - INFO - ✅ Enhanced memory system initialized
+2025-06-12 01:36:33,679 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 01:36:33,680 - WARNING - Model discovery failed: 'name'
+2025-06-12 01:36:33,680 - INFO - 🤖 Found 1 available models
+2025-06-12 01:36:33,680 - INFO - 📋 Enhanced llama3.2:latest assigned to reasoning
+2025-06-12 01:36:33,681 - INFO - 📋 Enhanced llama3.2:latest assigned to coding
+2025-06-12 01:36:33,681 - INFO - 📋 Enhanced llama3.2:latest assigned to planning
+2025-06-12 01:36:33,681 - INFO - 📋 Enhanced llama3.2:latest assigned to analysis
+2025-06-12 01:36:33,681 - INFO - 📋 Enhanced llama3.2:latest assigned to creativity
+2025-06-12 01:36:33,681 - INFO - 📋 Enhanced llama3.2:latest assigned to research
+2025-06-12 01:36:33,681 - INFO - 📋 Enhanced llama3.2:latest assigned to debugging
+2025-06-12 01:36:33,681 - INFO - ✅ PermissionParser initialized with flexible patterns
+2025-06-12 01:36:33,682 - INFO - ✅ Enhanced SystemCommandExecutor initialized
+2025-06-12 01:36:33,814 - INFO - ✅ Enhanced automation capabilities available
+2025-06-12 01:36:33,814 - INFO - ✅ Enhanced Truly Intelligent Agent ready with supercharged capabilities!
+2025-06-12 01:36:33,814 - INFO - ✅ Enhanced agent ready! Enhanced capabilities include:
+2025-06-12 01:36:33,814 - INFO -   🧠 Enhanced thinking with memory and prediction
+2025-06-12 01:36:33,814 - INFO -   🎯 Supercharged reasoning with multi-model collaboration
+2025-06-12 01:36:33,814 - INFO -   📚 Accelerated learning with persistent memory
+2025-06-12 01:36:33,814 - INFO -   ⚡ Lightning execution with predictive capabilities
+2025-06-12 01:36:33,814 - INFO -   📋 Master planning with adaptive intelligence
+2025-06-12 01:36:33,814 - INFO -   🐛 Elite debugging with predictive analysis
+2025-06-12 01:36:33,814 - INFO -   🚀 Turbocharged running with health monitoring
+2025-06-12 01:36:33,814 - INFO -   🔍 Deep analysis with multi-dimensional insights
+2025-06-12 01:36:51,240 - INFO - 🔄 Enhanced processing: open notepad and write Hello Amar...
+2025-06-12 01:36:51,241 - INFO - Enhanced self-assessed confidence: 0.30
+2025-06-12 01:36:51,241 - INFO - Low confidence detected, engaging enhanced deep thinking...
+2025-06-12 01:36:51,241 - INFO - 🧠 Enhanced deep thinking about: open notepad and write Hello Amar...
+2025-06-12 01:36:51,243 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:36:57,328 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:37:04,702 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:37:04,707 - INFO - ⚡ Handling enhanced simple task...
+2025-06-12 01:37:04,707 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:37:04,707 - INFO - 🤝 Enhanced summoned llama3.2:latest (General reasoning and problem solving with memory integration) - Score: 0.50
+2025-06-12 01:37:10,691 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:37:51,540 - INFO - 🔄 Enhanced processing: why didnt you write inside notepad Hello Amar as I...
+2025-06-12 01:37:51,541 - INFO - Enhanced self-assessed confidence: 0.30
+2025-06-12 01:37:51,541 - INFO - Low confidence detected, engaging enhanced deep thinking...
+2025-06-12 01:37:51,542 - INFO - 🧠 Enhanced deep thinking about: why didnt you write inside notepad Hello Amar as I...
+2025-06-12 01:37:51,543 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:37:56,182 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:38:02,771 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:38:02,774 - INFO - 🎯 Handling enhanced complex task with adaptive planning...
+2025-06-12 01:38:02,774 - INFO - Creating enhanced adaptive plan for: why didnt you write inside notepad Hello Amar as I told you? Now I give you permission to do it
+2025-06-12 01:38:02,775 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:38:13,229 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:38:23,221 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:38:23,223 - INFO - 🚀 Executing enhanced plan with 2 steps...
+2025-06-12 01:38:23,223 - INFO - 📋 Step 1/2: 1. Verify User Input
+2025-06-12 01:38:30,720 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:38:30,720 - INFO - ✅ Step 1 completed successfully
+2025-06-12 01:38:30,720 - INFO - 📋 Step 2/2: Task: Analyze user input and instructions.
+2025-06-12 01:38:35,825 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:38:35,826 - INFO - ✅ Step 2 completed successfully
+2025-06-12 01:38:45,846 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:39:05,911 - INFO - 🔄 Enhanced processing: you just created plan, why didnt you execute it?...
+2025-06-12 01:39:05,911 - INFO - Enhanced self-assessed confidence: 0.31
+2025-06-12 01:39:05,911 - INFO - Low confidence detected, engaging enhanced deep thinking...
+2025-06-12 01:39:05,911 - INFO - 🧠 Enhanced deep thinking about: you just created plan, why didnt you execute it?...
+2025-06-12 01:39:05,912 - INFO - Selected thinking ensemble: ['reasoning', 'planning']
+2025-06-12 01:39:11,876 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:39:16,662 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:39:24,649 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:39:24,652 - INFO - ⚡ Handling enhanced simple task...
+2025-06-12 01:39:24,653 - INFO - Selected thinking ensemble: ['reasoning', 'planning']
+2025-06-12 01:39:24,653 - INFO - 🤝 Enhanced summoned llama3.2:latest (General reasoning and problem solving with memory integration) - Score: 0.65
+2025-06-12 01:39:32,180 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:40:41,394 - INFO - 🔄 Enhanced processing: expand your abilities by creading tool script that...
+2025-06-12 01:40:41,395 - INFO - Enhanced self-assessed confidence: 0.31
+2025-06-12 01:40:41,395 - INFO - Low confidence detected, engaging enhanced deep thinking...
+2025-06-12 01:40:41,396 - INFO - 🧠 Enhanced deep thinking about: expand your abilities by creading tool script that...
+2025-06-12 01:40:41,397 - INFO - Selected thinking ensemble: ['reasoning', 'coding']
+2025-06-12 01:40:50,547 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:40:59,596 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:41:07,928 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:41:07,932 - INFO - 🎯 Handling enhanced complex task with adaptive planning...
+2025-06-12 01:41:07,932 - INFO - Creating enhanced adaptive plan for: expand your abilities by creading tool script that will allow you to use it when you want, lets say I want you to create x-o-x game
+2025-06-12 01:41:07,932 - INFO - Selected thinking ensemble: ['reasoning', 'coding']
+2025-06-12 01:41:18,522 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:41:29,139 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:41:40,027 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:41:40,028 - INFO - 🚀 Executing enhanced plan with 13 steps...
+2025-06-12 01:41:40,028 - INFO - 📋 Step 1/13: *Unified Plan: Creating an Adaptive X-O-X Game Tool Script**
+2025-06-12 01:41:47,036 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:41:47,036 - INFO - ✅ Step 1 completed successfully
+2025-06-12 01:41:47,036 - INFO - 📋 Step 2/13: *Goal:** Expand abilities by creating a tool script that allows for seamless user experience, engaging gameplay, and ample opportunities for improvement.
+2025-06-12 01:41:54,908 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:41:54,909 - INFO - ✅ Step 2 completed successfully
+2025-06-12 01:41:54,909 - INFO - 📋 Step 3/13: *Perspective Integration:**
+2025-06-12 01:41:59,578 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:41:59,578 - INFO - ✅ Step 3 completed successfully
+2025-06-12 01:41:59,578 - INFO - 📋 Step 4/13: 1. **Reasoning**: Decompose the goal into smaller tasks, such as:
+2025-06-12 01:42:00,363 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:42:00,364 - INFO - ✅ Step 4 completed successfully
+2025-06-12 01:42:00,364 - INFO - 📋 Step 5/13: Task 1.1: Implement modular design with separate classes for `Game` and `Player`
+2025-06-12 01:42:08,687 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:42:08,687 - INFO - ✅ Step 5 completed successfully
+2025-06-12 01:42:08,687 - INFO - 📋 Step 6/13: Task 2.1: Develop efficient algorithm for checking horizontal, vertical, and diagonal wins
+2025-06-12 01:42:17,838 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:42:17,838 - INFO - ✅ Step 6 completed successfully
+2025-06-12 01:42:17,838 - INFO - 📋 Step 7/13: Create separate classes for `Game` and `Player`
+2025-06-12 01:42:26,968 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:42:26,969 - INFO - ✅ Step 7 completed successfully
+2025-06-12 01:42:26,969 - INFO - 📋 Step 8/13: Use object-oriented programming principles to encapsulate game logic
+2025-06-12 01:42:35,740 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:42:35,741 - INFO - ✅ Step 8 completed successfully
+2025-06-12 01:42:35,741 - INFO - 📋 Step 9/13: Implement modular design using dependency injection or interface-based programming
+2025-06-12 01:42:44,349 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:42:44,350 - INFO - ✅ Step 9 completed successfully
+2025-06-12 01:42:44,350 - INFO - 📋 Step 10/13: Develop an efficient algorithm for checking horizontal, vertical, and diagonal wins
+2025-06-12 01:42:53,485 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:42:53,485 - INFO - ✅ Step 10 completed successfully
+2025-06-12 01:42:53,486 - INFO - 📋 Step 11/13: Select an AI helper library (e.g., AlphaZero, MCTS)
+2025-06-12 01:42:59,347 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:42:59,347 - INFO - ✅ Step 11 completed successfully
+2025-06-12 01:42:59,347 - INFO - 📋 Step 12/13: Develop a basic AI opponent that can make moves based on its own strategy
+2025-06-12 01:43:08,513 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:43:08,513 - INFO - ✅ Step 12 completed successfully
+2025-06-12 01:43:08,513 - INFO - 📋 Step 13/13: Use caching techniques (e.g., memoization, caching) to reduce computation time
+2025-06-12 01:43:14,479 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:43:14,479 - INFO - ✅ Step 13 completed successfully
+2025-06-12 01:43:23,465 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:50:34,960 - INFO - 🚀 Starting Enhanced Truly Intelligent Agent...
+2025-06-12 01:50:34,969 - INFO - 🚀 Initializing Enhanced Truly Intelligent Agent 943a6811
+2025-06-12 01:50:34,972 - INFO - ✅ Enhanced memory system initialized
+2025-06-12 01:50:34,977 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 01:50:34,977 - WARNING - Model discovery failed: 'name'
+2025-06-12 01:50:34,977 - INFO - 🤖 Found 1 available models
+2025-06-12 01:50:34,977 - INFO - 📋 Enhanced llama3.2:latest assigned to reasoning
+2025-06-12 01:50:34,978 - INFO - 📋 Enhanced llama3.2:latest assigned to coding
+2025-06-12 01:50:34,978 - INFO - 📋 Enhanced llama3.2:latest assigned to planning
+2025-06-12 01:50:34,978 - INFO - 📋 Enhanced llama3.2:latest assigned to analysis
+2025-06-12 01:50:34,978 - INFO - 📋 Enhanced llama3.2:latest assigned to creativity
+2025-06-12 01:50:34,978 - INFO - 📋 Enhanced llama3.2:latest assigned to research
+2025-06-12 01:50:34,978 - INFO - 📋 Enhanced llama3.2:latest assigned to debugging
+2025-06-12 01:50:34,978 - INFO - Loaded existing enhanced self-model
+2025-06-12 01:50:34,978 - INFO - ✅ PermissionParser initialized with flexible patterns
+2025-06-12 01:50:34,978 - INFO - ✅ Enhanced SystemCommandExecutor initialized
+2025-06-12 01:50:35,098 - INFO - ✅ Enhanced automation capabilities available
+2025-06-12 01:50:35,098 - INFO - ✅ Enhanced Truly Intelligent Agent ready with supercharged capabilities!
+2025-06-12 01:50:35,098 - INFO - ✅ Enhanced agent ready! Enhanced capabilities include:
+2025-06-12 01:50:35,098 - INFO -   🧠 Enhanced thinking with memory and prediction
+2025-06-12 01:50:35,098 - INFO -   🎯 Supercharged reasoning with multi-model collaboration
+2025-06-12 01:50:35,099 - INFO -   📚 Accelerated learning with persistent memory
+2025-06-12 01:50:35,099 - INFO -   ⚡ Lightning execution with predictive capabilities
+2025-06-12 01:50:35,099 - INFO -   📋 Master planning with adaptive intelligence
+2025-06-12 01:50:35,099 - INFO -   🐛 Elite debugging with predictive analysis
+2025-06-12 01:50:35,099 - INFO -   🚀 Turbocharged running with health monitoring
+2025-06-12 01:50:35,099 - INFO -   🔍 Deep analysis with multi-dimensional insights
+2025-06-12 01:50:45,812 - INFO - 🔄 Enhanced processing: play tic tac game...
+2025-06-12 01:50:45,813 - INFO - Enhanced self-assessed confidence: 0.31
+2025-06-12 01:50:45,813 - INFO - Low confidence detected, engaging enhanced deep thinking...
+2025-06-12 01:50:45,814 - INFO - 🧠 Enhanced deep thinking about: play tic tac game...
+2025-06-12 01:50:45,819 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:50:54,211 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:51:03,130 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:51:03,133 - INFO - ⚡ Handling enhanced simple task...
+2025-06-12 01:51:03,134 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:51:03,134 - INFO - 🤝 Enhanced summoned llama3.2:latest (General reasoning and problem solving with memory integration) - Score: 0.50
+2025-06-12 01:51:14,363 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:51:47,969 - INFO - 🔄 Enhanced processing: open notepad and write hey amar I am AI...
+2025-06-12 01:51:47,969 - INFO - Enhanced self-assessed confidence: 0.31
+2025-06-12 01:51:47,969 - INFO - Low confidence detected, engaging enhanced deep thinking...
+2025-06-12 01:51:47,970 - INFO - 🧠 Enhanced deep thinking about: open notepad and write hey amar I am AI...
+2025-06-12 01:51:47,972 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:51:52,661 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:52:03,148 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:52:03,152 - INFO - ⚡ Handling enhanced simple task...
+2025-06-12 01:52:03,153 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:52:03,153 - INFO - 🤝 Enhanced summoned llama3.2:latest (General reasoning and problem solving with memory integration) - Score: 0.65
+2025-06-12 01:52:09,796 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:53:11,070 - INFO - 🔄 Enhanced processing: you didnt write anything inside that notepad and I...
+2025-06-12 01:53:11,070 - INFO - Enhanced self-assessed confidence: 0.31
+2025-06-12 01:53:11,071 - INFO - Low confidence detected, engaging enhanced deep thinking...
+2025-06-12 01:53:11,072 - INFO - 🧠 Enhanced deep thinking about: you didnt write anything inside that notepad and I...
+2025-06-12 01:53:11,073 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:53:17,611 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:53:30,329 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:53:30,333 - INFO - 🎯 Handling enhanced complex task with adaptive planning...
+2025-06-12 01:53:30,333 - INFO - Creating enhanced adaptive plan for: you didnt write anything inside that notepad and I gave you permission to write Hey I am AI, now close existing notepad files and open new and write Hey I am AI
+2025-06-12 01:53:30,334 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:53:43,291 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:53:54,893 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:53:54,894 - INFO - 🚀 Executing enhanced plan with 7 steps...
+2025-06-12 01:53:54,894 - INFO - 📋 Step 1/7: *Goal:** Open a new notepad file, type the phrase "hey amar I am AI", and confirm completion with high accuracy and efficiency.
+2025-06-12 01:54:02,176 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:54:02,176 - INFO - ✅ Step 1 completed successfully
+2025-06-12 01:54:02,176 - INFO - 📋 Step 2/7: *Plan:**
+2025-06-12 01:54:04,510 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:54:04,510 - INFO - ✅ Step 2 completed successfully
+2025-06-12 01:54:04,510 - INFO - 📋 Step 3/7: 1. **Initialization:**
+2025-06-12 01:54:08,742 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:54:08,743 - INFO - ✅ Step 3 completed successfully
+2025-06-12 01:54:08,743 - INFO - 📋 Step 4/7: Check if a note-taking application is already open (if yes, use that; otherwise, try to open a new instance of the application).
+2025-06-12 01:54:17,046 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:54:17,046 - INFO - ✅ Step 4 completed successfully
+2025-06-12 01:54:17,047 - INFO - 📋 Step 5/7: Display a clear instruction on the screen: "Type 'hey amar I am AI' in the notepad."
+2025-06-12 01:54:23,062 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:54:23,062 - INFO - ✅ Step 5 completed successfully
+2025-06-12 01:54:23,062 - INFO - 📋 Step 6/7: 2. **Open New Notepad File:**
+2025-06-12 01:54:28,603 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:54:28,603 - INFO - ✅ Step 6 completed successfully
+2025-06-12 01:54:28,603 - INFO - 📋 Step 7/7: Use adaptive techniques such as predictive text or language modeling to improve typing speed and accuracy.
+2025-06-12 01:54:36,612 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:54:36,612 - INFO - ✅ Step 7 completed successfully
+2025-06-12 01:54:47,954 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:59:14,038 - INFO - 🚀 Starting Enhanced Truly Intelligent Agent...
+2025-06-12 01:59:14,045 - INFO - 🚀 Initializing Enhanced Truly Intelligent Agent a65e776c
+2025-06-12 01:59:14,047 - INFO - ✅ Enhanced memory system initialized
+2025-06-12 01:59:14,053 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 01:59:14,054 - WARNING - Model discovery failed: 'name'
+2025-06-12 01:59:14,054 - INFO - 🤖 Found 1 available models
+2025-06-12 01:59:14,054 - INFO - 📋 Enhanced llama3.2:latest assigned to reasoning
+2025-06-12 01:59:14,054 - INFO - 📋 Enhanced llama3.2:latest assigned to coding
+2025-06-12 01:59:14,054 - INFO - 📋 Enhanced llama3.2:latest assigned to planning
+2025-06-12 01:59:14,054 - INFO - 📋 Enhanced llama3.2:latest assigned to analysis
+2025-06-12 01:59:14,054 - INFO - 📋 Enhanced llama3.2:latest assigned to creativity
+2025-06-12 01:59:14,054 - INFO - 📋 Enhanced llama3.2:latest assigned to research
+2025-06-12 01:59:14,054 - INFO - 📋 Enhanced llama3.2:latest assigned to debugging
+2025-06-12 01:59:14,060 - INFO - Loaded existing enhanced self-model
+2025-06-12 01:59:14,061 - INFO - ✅ PermissionParser initialized with flexible patterns
+2025-06-12 01:59:14,061 - INFO - ✅ Enhanced SystemCommandExecutor initialized
+2025-06-12 01:59:14,176 - INFO - ✅ Enhanced automation capabilities available
+2025-06-12 01:59:14,176 - INFO - ✅ Enhanced Truly Intelligent Agent ready with supercharged capabilities!
+2025-06-12 01:59:14,176 - INFO - ✅ Enhanced agent ready! Enhanced capabilities include:
+2025-06-12 01:59:14,176 - INFO -   🧠 Enhanced thinking with memory and prediction
+2025-06-12 01:59:14,176 - INFO -   🎯 Supercharged reasoning with multi-model collaboration
+2025-06-12 01:59:14,176 - INFO -   📚 Accelerated learning with persistent memory
+2025-06-12 01:59:14,176 - INFO -   ⚡ Lightning execution with predictive capabilities
+2025-06-12 01:59:14,176 - INFO -   📋 Master planning with adaptive intelligence
+2025-06-12 01:59:14,176 - INFO -   🐛 Elite debugging with predictive analysis
+2025-06-12 01:59:14,176 - INFO -   🚀 Turbocharged running with health monitoring
+2025-06-12 01:59:14,177 - INFO -   🔍 Deep analysis with multi-dimensional insights
+2025-06-12 01:59:24,050 - INFO - 🔄 Enhanced processing: open website chatgpt.com and type hey...
+2025-06-12 01:59:24,051 - INFO - Enhanced self-assessed confidence: 0.31
+2025-06-12 01:59:24,052 - INFO - Low confidence detected, engaging enhanced deep thinking...
+2025-06-12 01:59:24,052 - INFO - 🧠 Enhanced deep thinking about: open website chatgpt.com and type hey...
+2025-06-12 01:59:24,054 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:59:28,392 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:59:35,538 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 01:59:35,541 - INFO - ⚡ Handling enhanced simple task...
+2025-06-12 01:59:35,541 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 01:59:35,541 - INFO - 🤝 Enhanced summoned llama3.2:latest (General reasoning and problem solving with memory integration) - Score: 0.50
+2025-06-12 01:59:40,023 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:00:29,199 - INFO - 🔄 Enhanced processing: I give you permission to open chatgpt and interact...
+2025-06-12 02:00:29,200 - INFO - Enhanced self-assessed confidence: 0.31
+2025-06-12 02:00:29,201 - INFO - Low confidence detected, engaging enhanced deep thinking...
+2025-06-12 02:00:29,201 - INFO - 🧠 Enhanced deep thinking about: I give you permission to open chatgpt and interact...
+2025-06-12 02:00:29,203 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 02:00:34,112 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:00:40,286 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:00:40,289 - INFO - 🎯 Handling enhanced complex task with adaptive planning...
+2025-06-12 02:00:40,289 - INFO - Creating enhanced adaptive plan for: I give you permission to open chatgpt and interact with it
+2025-06-12 02:00:40,290 - INFO - Selected thinking ensemble: ['reasoning']
+2025-06-12 02:00:49,639 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:00:58,577 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:00:58,578 - INFO - 🚀 Executing enhanced plan with 3 steps...
+2025-06-12 02:00:58,578 - INFO - 📋 Step 1/3: If necessary, ask follow-up questions to clarify any misunderstandings about ChatGPT's capabilities.
+2025-06-12 02:01:02,168 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:01:02,168 - INFO - ✅ Step 1 completed successfully
+2025-06-12 02:01:02,169 - INFO - 📋 Step 2/3: Identify potential areas where our knowledge graph may be incomplete or outdated.
+2025-06-12 02:01:08,130 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:01:08,130 - INFO - ✅ Step 2 completed successfully
+2025-06-12 02:01:08,130 - INFO - 📋 Step 3/3: Use our knowledge graph to inform our questions and guide the conversation towards more accurate and relevant information.
+2025-06-12 02:01:09,969 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:01:09,969 - INFO - ✅ Step 3 completed successfully
+2025-06-12 02:01:18,341 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:06:37,080 - INFO - 🧠 Initializing Truly Intelligent Agent 89e99248
+2025-06-12 02:06:37,085 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 02:06:37,085 - WARNING - Model discovery failed: 'name'
+2025-06-12 02:06:37,085 - INFO - 🤖 Found 1 available models
+2025-06-12 02:06:37,085 - INFO - 📋 Assigned llama3.2:latest to reasoning
+2025-06-12 02:06:37,086 - INFO - 📋 Assigned llama3.2:latest to coding
+2025-06-12 02:06:37,086 - INFO - 📋 Assigned llama3.2:latest to planning
+2025-06-12 02:06:37,086 - INFO - 📋 Assigned llama3.2:latest to analysis
+2025-06-12 02:06:37,086 - INFO - 📋 Assigned llama3.2:latest to creativity
+2025-06-12 02:06:37,086 - INFO - 📋 Assigned llama3.2:latest to research
+2025-06-12 02:06:37,086 - INFO - 📋 Assigned llama3.2:latest to debugging
+2025-06-12 02:06:37,094 - INFO - Loaded existing self-model
+2025-06-12 02:06:37,233 - INFO - ✅ Automation capabilities available
+2025-06-12 02:06:37,233 - INFO - ✅ Truly Intelligent Agent ready!
+2025-06-12 02:07:18,400 - INFO - 🔄 Processing: open website chatgpt.com send message Hey and pres...
+2025-06-12 02:07:18,401 - INFO - Self-assessed confidence: 0.30
+2025-06-12 02:07:18,401 - INFO - Low confidence detected, engaging deep thinking...
+2025-06-12 02:07:18,402 - INFO - 🤔 Deep thinking about: open website chatgpt.com send message Hey and pres...
+2025-06-12 02:07:22,638 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:07:22,772 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:07:28,434 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:07:33,040 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:07:36,781 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:07:40,497 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:07:45,286 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:07:53,457 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 02:07:53,457 - INFO - ⚡ Handling simple task...
+2025-06-12 02:07:53,457 - INFO - 🤝 Summoned llama3.2:latest (reasoning) for task
+2025-06-12 02:07:53,795 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"

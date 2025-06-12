@@ -1,0 +1,31 @@
+{
+  "history": [
+    {
+      "strategy": {
+        "name": "basic_web_automation",
+        "description": "Basic web automation with standard selectors",
+        "type": "web_automation",
+        "parameters": {
+          "input_selector": "textarea",
+          "wait_time": 10,
+          "retry_count": 2
+        }
+      },
+      "domain": "web_automation",
+      "execution_result": {
+        "success": true,
+        "action": "website_opened",
+        "url": "https://lennberg.eu",
+        "screenshot": "screenshots/interaction_1749691686.png",
+        "page_title": "Lennberg"
+      },
+      "timestamp": "2025-06-12T03:28:09.020807"
+    }
+  ],
+  "performance_weights": {
+    "basic_web_automation": {
+      "success_count": 1,
+      "total_attempts": 1
+    }
+  }
+}
