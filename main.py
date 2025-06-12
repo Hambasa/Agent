@@ -3072,6 +3072,22 @@ class TrulyIntelligentAgent:
         except Exception as e:
             logger.warning(f"Model discovery failed: {e}")
             return ['rolandroland/llama3.1-uncensored:latest']  # Fallback
+
+    def list_available_models(self) -> List[Tuple[str, float]]:
+        """Return available models with their size in MB"""
+        try:
+            models = self.ollama.list()
+            result = []
+            for m in models.get('models', []):
+                name = m.get('name', '') if isinstance(m, dict) else m
+                size = 0.0
+                if isinstance(m, dict):
+                    size = m.get('size', 0) / (1024 ** 2)
+                result.append((name, size))
+            return result
+        except Exception as e:
+            logger.warning(f"Model listing failed: {e}")
+            return []
     
     def initialize_helpers(self) -> Dict[str, AIHelper]:
         """Initialize specialized AI helpers"""
@@ -3921,10 +3937,16 @@ def main():
     """Main function"""
     print("🧠 Initializing Truly Intelligent Self-Evolving Agent...")
     print("=" * 70)
-    
+
     try:
         agent = TrulyIntelligentAgent()
-        
+
+        if '--list-models' in sys.argv:
+            print("\nAvailable models:")
+            for name, size in agent.list_available_models():
+                print(f"- {name} ({size:.1f} MB)")
+            return 0
+
         print(f"✅ Agent initialized!")
         print(f"🆔 ID: {agent.agent_id}")
         print(f"🤖 Available Models: {len(agent.available_models)}")
@@ -3940,7 +3962,7 @@ def main():
         print("   • Code creation, testing, and debugging")
         print("   • System automation and web interaction")
         print("   • Meta-cognitive self-awareness")
-        print("\n   Commands: 'status', 'helpers', 'reflect', 'install <package>', 'quit'")
+        print("\n   Commands: 'status', 'helpers', 'reflect', 'install <package>', 'list-models', 'quit'")
         print("-" * 70)
         
         while True:
@@ -3978,7 +4000,12 @@ def main():
                         'current_state': agent.get_status()
                     })
                     print(f"Reflection insights: {json.dumps(reflection, indent=2)}")
-                
+
+                elif user_input.lower() == 'list-models':
+                    print("\n📚 Available models:")
+                    for name, size in agent.list_available_models():
+                        print(f"   {name} ({size:.1f} MB)")
+
                 elif user_input.lower().startswith('install '):
                     package = user_input[8:].strip()
                     print(f"\n🔧 Installing {package}...")
